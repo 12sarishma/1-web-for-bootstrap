@@ -25,3 +25,78 @@ header.banner .banner-heading{
   margin-bottom: 2rem;
   font-family: "Montserrat",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+header.banner .btn{
+  background-color: #fed136;
+  border: none;
+  font-weight: 500;
+}
+@media (min-width:768px){
+  header.banner{
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  
+  }
+  header.banner .banner-heading{
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.banner .banner-heading{
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.page-section{
+  padding: 6rem 0;
+}
+.page-section h2.section-heading{
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h3.section-subheading{
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto slap";
+  margin-bottom: 4rem;
+}
+@media(min-width:768px){
+ .page section{
+    padding: 9rem 0;
+  }
+  #mainNav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav .navbar-toggler{
+    padding: 0.75rem;
+    font-size: 0.75;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #mianNav .navbar-brand{
+    color: #ffc107;
+    font-family: "Montserrat";
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+
+  }
+  /* #mainNav img{
+    height: 1.5rem;
+  }*/
+  
+  #maninNav.navbar-nav-item .nav-link{
+    font-family: "Montserrat";
+    font-size: 0.05rem;
+    color: #fff;
+    letter-spacing: 0.0625rem;
+  }
+  #maninNav.navbar-nav-item .nav-link:hover{
+    color: #ffc107;
+  }
+}
